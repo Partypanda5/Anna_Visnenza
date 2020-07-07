@@ -1,0 +1,976 @@
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: static;
+}
+
+html
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+canvas{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#work:hover
+{
+    color: #0683D7;
+}
+  
+#contact:hover
+{
+    color: #0683D7;
+}
+
+#play:hover
+{
+    color: #0683D7;
+}
+
+#about:hover
+{
+    color: #0683D7;
+}
+
+#logo
+{
+    height: auto;
+    position: fixed;
+}
+
+#workTitle
+{
+    font-size: 110px;
+    position: relative;
+}
+
+#workSubtitle
+{
+    font-family: AvenirMedium;
+    font-weight: 300;
+    font-size: 40px;
+    color: #022672;
+    position: relative;
+}
+
+#sideNav
+{
+    overflow-y: auto;
+    position: fixed;
+    height: 100vh;
+}
+
+#firstParagraph
+{
+    width: 30vw;
+    font-family: AvenirMedium;
+    font-size: 22px;
+    color: #022672;
+    line-height: 3vh;
+    position: relative;
+}
+
+#one
+{
+    position: relative;
+    width: 25%;
+    height: auto;
+    z-index: 5;
+}
+
+#two
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#three
+{
+    position: relative;
+    width: 25%;
+    height: auto;
+    z-index: 5;
+}
+
+#four
+{
+    position: relative;
+    width: 25%;
+    height: auto;
+    z-index: 5;
+}
+
+#five
+{
+    position: relative;
+    width: 25%;
+    height: auto;
+    z-index: 5;
+}
+
+#secondParagraph
+{
+    width: 70vw;
+    font-family: AvenirMedium;
+    font-size: 22px;
+    color: #022672;
+    line-height: 3vh;
+    position: relative;
+}
+
+#six
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#seven
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 6;
+}
+
+#eight
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#thirdParagraph
+{
+    width: 30vw;
+    font-family: AvenirMedium;
+    font-size: 22px;
+    color: #022672;
+    line-height: 3vh;
+    position: relative;
+}
+
+#nine
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#ten
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#eleven
+{
+    position: relative;
+    width: 29%;
+    height: auto;
+    z-index: 5;
+}
+
+#twelve
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#thirteen
+{
+    position: relative;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+#backTop
+{
+    font-family: AvenirMedium;
+    font-size: 22px;
+    color: #022672;
+    line-height: 3vh;
+    position: relative;
+    padding-bottom: 5vh;
+}
+
+@media (min-width: 150px) and (max-width: 767px) 
+{
+    #logo
+    {
+        width: 20vw;
+        top: 3vh;
+        left: 2vw;
+        position: relative;
+    }
+
+    #workTitle
+    {
+        left: 15vw;
+        top: -3vh;
+    }
+
+    #workSubtitle
+    {
+        left: 30vw;
+        top: -13vh;
+    }
+
+    #sideNav
+    {
+        display: none;
+    }
+
+    #firstParagraph
+    {
+        width: 90vw;
+        top: -15vh;
+        left: 5vw;
+        line-height: 23px;
+    }
+
+    #one
+    {
+        width: 80%;
+        top: -10vh;
+        left: 10vw;
+        
+    }
+
+    #two
+    {
+        width: 80%;
+        top: -5vh;
+        left: 10vw;
+        
+    }
+
+    #three
+    {
+        width: 80%;
+        top: 0vh;
+        left: 10vw;
+        
+    }
+
+    #four
+    {
+        width: 80%;
+        top: 5vh;
+        left: 10vw;
+    }
+
+    #five
+    {
+        width: 80%;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    #secondParagraph
+    {
+        width: 90vw;
+        top: 15vh;
+        left: 5vw;
+        line-height: 23px;
+    }
+
+    #six
+    {
+        width: 80%;
+        top: 20vh;
+        left: 10vw;
+    }
+
+    #seven
+    {
+        width: 80%;
+        top: 25vh;
+        left: 10vw;
+    }
+
+    #eight
+    {
+        width: 80%;
+        top: 30vh;
+        left: 10vw;
+    }
+
+    #thirdParagraph
+    {
+        width: 90vw;
+        top: 35vh;
+        left: 5vw;
+        line-height: 23px;
+    }
+
+    #nine
+    {
+        width: 80%;
+        top: 40vh;
+        left: 10vw;
+    }
+
+    #ten
+    {
+        width: 80%;
+        top: 45vh;
+        left: 10vw;
+    }
+
+    #eleven
+    {
+        width: 80%;
+        top: 50vh;
+        left: 10vw;
+    }
+
+    #twelve
+    {
+        width: 80%;
+        top: 55vh;
+        left: 10vw;
+    }
+
+    #thirteen
+    {
+        width: 80%;
+        top: 60vh;
+        left: 10vw;
+    }
+
+    #backTop
+    {
+        width: 80%;
+        top: 65vh;
+        left: 33vw;
+    }
+
+} 
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    #logo
+    {
+        width: 20vw;
+        top: 3vh;
+        left: 2vw;
+        position: relative;
+    }
+
+    #workTitle
+    {
+        left: 60vw;
+        top: -5vh;
+    }
+
+    #workSubtitle
+    {
+        left: 65vw;
+        top: -12vh;
+    }
+
+    #sideNav
+    {
+        display: none;
+    }
+
+    #firstParagraph
+    {
+        width: 90vw;
+        top: -10vh;
+        left: 5vw;
+    }
+
+    #one
+    {
+        width: 80%;
+        top: -10vh;
+        left: 10vw;
+        
+    }
+
+    #two
+    {
+        width: 80%;
+        top: -5vh;
+        left: 10vw;
+        
+    }
+
+    #three
+    {
+        width: 80%;
+        top: 0vh;
+        left: 10vw;
+        
+    }
+
+    #four
+    {
+        width: 80%;
+        top: 5vh;
+        left: 10vw;
+    }
+
+    #five
+    {
+        width: 80%;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    #secondParagraph
+    {
+        width: 90vw;
+        top: 15vh;
+        left: 5vw;
+    }
+
+    #six
+    {
+        width: 80%;
+        top: 20vh;
+        left: 10vw;
+    }
+
+    #seven
+    {
+        width: 80%;
+        top: 25vh;
+        left: 10vw;
+    }
+
+    #eight
+    {
+        width: 80%;
+        top: 30vh;
+        left: 10vw;
+    }
+
+    #thirdParagraph
+    {
+        width: 90vw;
+        top: 35vh;
+        left: 5vw;
+    }
+
+    #nine
+    {
+        width: 80%;
+        top: 40vh;
+        left: 10vw;
+    }
+
+    #ten
+    {
+        width: 80%;
+        top: 45vh;
+        left: 10vw;
+    }
+
+    #eleven
+    {
+        width: 80%;
+        top: 50vh;
+        left: 10vw;
+    }
+
+    #twelve
+    {
+        width: 80%;
+        top: 55vh;
+        left: 10vw;
+    }
+
+    #thirteen
+    {
+        width: 80%;
+        top: 60vh;
+        left: 10vw;
+    }
+
+    #backTop
+    {
+        width: 90%;
+        top: 65vh;
+        left: 40vw;
+        font-size: 30px;
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px)
+{
+    #logo
+    {
+        width: 20vw;
+        top: 3vh;
+        left: 2vw;
+        position: relative;
+    }
+
+    #workTitle
+    {
+        left: 68vw;
+        top: -5vh;
+    }
+
+    #workSubtitle
+    {
+        left: 73vw;
+        top: -10vh;
+    }
+
+    #sideNav
+    {
+        display: none;
+    }
+
+    #firstParagraph
+    {
+        width: 90vw;
+        top: -10vh;
+        left: 5vw;
+    }
+
+    #one
+    {
+        width: 80%;
+        top: -10vh;
+        left: 10vw;
+        
+    }
+
+    #two
+    {
+        width: 80%;
+        top: -5vh;
+        left: 10vw;
+        
+    }
+
+    #three
+    {
+        width: 80%;
+        top: 0vh;
+        left: 10vw;
+        
+    }
+
+    #four
+    {
+        width: 80%;
+        top: 5vh;
+        left: 10vw;
+    }
+
+    #five
+    {
+        width: 80%;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    #secondParagraph
+    {
+        width: 90vw;
+        top: 15vh;
+        left: 5vw;
+    }
+
+    #six
+    {
+        width: 80%;
+        top: 20vh;
+        left: 10vw;
+    }
+
+    #seven
+    {
+        width: 80%;
+        top: 25vh;
+        left: 10vw;
+    }
+
+    #eight
+    {
+        width: 80%;
+        top: 30vh;
+        left: 10vw;
+    }
+
+    #thirdParagraph
+    {
+        width: 90vw;
+        top: 35vh;
+        left: 5vw;
+    }
+
+    #nine
+    {
+        width: 80%;
+        top: 40vh;
+        left: 10vw;
+    }
+
+    #ten
+    {
+        width: 80%;
+        top: 45vh;
+        left: 10vw;
+    }
+
+    #eleven
+    {
+        width: 80%;
+        top: 50vh;
+        left: 10vw;
+    }
+
+    #twelve
+    {
+        width: 80%;
+        top: 55vh;
+        left: 10vw;
+    }
+
+    #thirteen
+    {
+        width: 80%;
+        top: 60vh;
+        left: 10vw;
+    }
+
+    #backTop
+    {
+        width: 90%;
+        top: 65vh;
+        left: 40vw;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px)
+{
+    #logo
+    {
+        width: 5vw;
+        top: 6vh;
+        left: 2vw;
+    }
+
+    #workTitle
+    {
+        left: 75vw;
+        top: -5vh;
+        font-size: 120px;
+    }
+
+    #workSubtitle
+    {
+        left: 83vw;
+        top: -14vh;
+        font-size: 30px;
+    }
+
+    #sideNav
+    {
+        display: block;
+        position: fixed;
+        top: 30vh;
+    }
+
+    #firstParagraph
+    {
+        width: 40vw;
+        top: -5vh;
+        left: 25vw;
+    }
+
+    #one
+    {
+        width: 20%;
+        top: -27vh;
+        left: 72vw;
+        
+    }
+
+    #two
+    {
+        width: 20%;
+        top: -20vh;
+        left: 40vw;
+        
+    }
+
+    #three
+    {
+        width: 20%;
+        top: 0vh;
+        left: 30vw;
+        
+    }
+
+    #four
+    {
+        width: 25%;
+        top: -15vh;
+        left: 40vw;
+    }
+
+    #five
+    {
+        width: 20%;
+        top: 5vh;
+        left: 3vw;
+    }
+
+    #secondParagraph
+    {
+        width: 50vw;
+        top: 15vh;
+        left: 25vw;
+    }
+
+    #six
+    {
+        width: 20%;
+        top: 20vh;
+        left: 25vw;
+    }
+
+    #seven
+    {
+        width: 20%;
+        top: 35vh;
+        left: 20vw;
+    }
+
+    #eight
+    {
+        width: 20%;
+        top: 20vh;
+        left: 14vw;
+    }
+
+    #thirdParagraph
+    {
+        width: 30vw;
+        top: 50vh;
+        left: 60vw;
+    }
+
+    #nine
+    {
+        width: 30%;
+        top: 17vh;
+        left: 25vw;
+    }
+
+    #ten
+    {
+        width: 30%;
+        top: 55vh;
+        left: 15vw;
+    }
+
+    #eleven
+    {
+        width: 30%;
+        top: 80vh;
+        left: -36vw;
+    }
+
+    #twelve
+    {
+        width: 25%;
+        top: 90vh;
+        left: 50vw;
+    }
+
+    #thirteen
+    {
+        width: 25%;
+        top: 100vh;
+        left: 5vw;
+    }
+
+    #backTop
+    {
+        width: 90%;
+        top: 110vh;
+        left: 45vw;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 5120px) 
+{
+    #logo
+    {
+        width: 5vw;
+        top: 4vh;
+        left: 2vw;
+    }
+
+    #workTitle
+    {
+        left: 77vw;
+        top: -5vh;
+        font-size: 120px;
+    }
+
+    #workSubtitle
+    {
+        left: 84vw;
+        top: -12vh;
+        font-size: 30px;
+    }
+
+    #sideNav
+    {
+        display: block;
+        position: fixed;
+        top: 30vh;
+    }
+
+    #firstParagraph
+    {
+        width: 40vw;
+        top: -5vh;
+        left: 25vw;
+    }
+
+    #one
+    {
+        width: 20%;
+        top: -27vh;
+        left: 72vw;
+        
+    }
+
+    #two
+    {
+        width: 20%;
+        top: -20vh;
+        left: 40vw;
+        
+    }
+
+    #three
+    {
+        width: 20%;
+        top: 0vh;
+        left: 30vw;
+        
+    }
+
+    #four
+    {
+        width: 25%;
+        top: -15vh;
+        left: 40vw;
+    }
+
+    #five
+    {
+        width: 20%;
+        top: 5vh;
+        left: 3vw;
+    }
+
+    #secondParagraph
+    {
+        width: 50vw;
+        top: 15vh;
+        left: 25vw;
+    }
+
+    #six
+    {
+        width: 20%;
+        top: 20vh;
+        left: 25vw;
+    }
+
+    #seven
+    {
+        width: 20%;
+        top: 35vh;
+        left: 20vw;
+    }
+
+    #eight
+    {
+        width: 20%;
+        top: 20vh;
+        left: 14vw;
+    }
+
+    #thirdParagraph
+    {
+        width: 30vw;
+        top: 50vh;
+        left: 60vw;
+    }
+
+    #nine
+    {
+        width: 30%;
+        top: 17vh;
+        left: 25vw;
+    }
+
+    #ten
+    {
+        width: 30%;
+        top: 55vh;
+        left: 15vw;
+    }
+
+    #eleven
+    {
+        width: 30%;
+        top: 80vh;
+        left: -36vw;
+    }
+
+    #twelve
+    {
+        width: 25%;
+        top: 90vh;
+        left: 50vw;
+    }
+
+    #thirteen
+    {
+        width: 25%;
+        top: 100vh;
+        left: 5vw;
+    }
+
+    #backTop
+    {
+        width: 90%;
+        top: 110vh;
+        left: 45vw;
+        font-size: 30px;
+    }
+}

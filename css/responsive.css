@@ -1,0 +1,282 @@
+@media (min-width: 150px) and (max-width: 767px) {   
+    html, body {
+      overflow-x: hidden;
+    }
+
+    body {
+      position: relative;
+    }
+  
+    #mainTitleImage{
+        position: relative;
+        width: 90%;
+        height: auto;
+        top: 35vh;
+        left: 12vw;
+      }
+
+    #pOne{
+      left: 5vw;
+      top: 5vh;
+      font-size: 100%;
+    }
+    
+    #pTwo{
+      top: 30vh;
+      left: 22vw;
+      font-size: 90%;
+    }
+    
+    #pThree{
+      top: 45vh;
+      left: 50vw;
+      font-size: 130%;
+    }
+
+    .fancyInsideFont{
+      text-align: center;
+      top: 7vh;
+      font-size: 50px;
+    }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 20%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+
+  #mainTitleImage{
+      position: relative;
+      width: 100%;
+      height: auto;
+      top: 28vh;
+      left: 0vw;
+    }
+
+  #pOne{
+    left: 5vw;
+    top: -10vh;
+    font-size: 160%;
+  }
+  
+  #pTwo{
+    top: 20vh;
+    left: 40vw;
+    font-size: 150%;
+  }
+  
+  #pThree{
+    top: 35vh;
+    left: 50vw;
+    font-size: 200%;
+  }
+
+  .fancyInsideFont{
+    text-align: center;
+    top: 10vh;
+    font-size: 100px;
+  }
+
+  #sideNavAbout{
+    text-align: center;
+  }
+
+  #logo{
+    z-index: 3;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 20%;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) { 
+  html, body {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  body {
+    position: relative;
+  }
+
+  #mainTitleImage{
+      position: relative;
+      width: 80%;
+      height: auto;
+      top: 28vh;
+      left: 15vw;
+    }
+
+  #pOne{
+    left: 10vw;
+    top: -25vh;
+    font-size: 150%;
+  }
+  
+  #pTwo{
+    top: 15vh;
+    left: 55vw;
+    font-size: 150%;
+  }
+  
+  #pThree{
+    top: 20vh;
+    left: 80vw;
+    font-size: 200%;
+  }
+
+  .fancyInsideFont{
+    text-align: center;
+    top: 5vh;
+    font-size: 90px;
+  }
+  
+  #logo{
+    z-index: 3;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 10%;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) { 
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+
+  #mainTitleImage{
+      position: relative;
+      width: 50%;
+      height: auto;
+      top: 28vh;
+      left: 25vw;
+    }
+
+  #pOne{
+    left: 20vw;
+    top: -15vh;
+    font-size: 150%;
+  }
+  
+  #pTwo{
+    top: 19vh;
+    left: 46vw;
+    font-size: 150%;
+  }
+  
+  #pThree{
+    top: 30vh;
+    left: 80vw;
+    font-size: 200%;
+  }
+
+  #work{
+    left: 30vw;
+  }
+
+  #play{
+    top: 20vh;
+    left: 10vw;
+  }
+
+  #about{
+    top: 0vh;
+    left: 60vw;
+  }
+
+  #contact{
+    left: 80vw;
+  }
+  
+  #logo{
+    z-index: 3;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 10%;
+  }
+
+}
+
+@media (min-width: 1601px) and (max-width: 5120px) { 
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+
+  #mainTitleImage{
+      position: relative;
+      width: 50%;
+      height: auto;
+      top: 28vh;
+      left: 25vw;
+    }
+
+  #pOne{
+    left: 20vw;
+    top: -15vh;
+    font-size: 150%;
+  }
+  
+  #pTwo{
+    top: 19vh;
+    left: 46vw;
+    font-size: 150%;
+  }
+  
+  #pThree{
+    top: 30vh;
+    left: 80vw;
+    font-size: 200%;
+  }
+
+  #work{
+    left: 25vw;
+  }
+
+  #about{
+    top: 0vh;
+    left: 60vw;
+  }
+
+  #play{
+    top: 40vh;
+    left: 20vw;
+  }
+
+  #contact{
+    left: 80vw;
+    top: 15vh;
+  }
+
+  #logo{
+    z-index: 3;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 5%;
+  }
+
+}

@@ -1,0 +1,322 @@
+body{
+    overflow-y: visible;
+}
+
+.aboutText{
+    color: #022672;;
+}
+
+#aboutTitle{
+  z-index: 3;
+}
+
+#workAbout:hover{
+  color: #0683D7;
+}
+
+#contactAbout:hover{
+  color: #0683D7;
+}
+
+#playAbout:hover{
+  color: #0683D7;
+}
+
+@media (min-width: 150px) and (max-width: 767px) {   
+
+    #particles-js{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        z-index: -1;
+    }
+
+    /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #F4F0ED; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #022672; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #022672; 
+}
+
+    #sideNavAbout{
+        text-align: center;
+      }
+  
+      #aboutTitle{
+        text-align: center;
+        top: 5vh;
+        font-size: 80px;
+      }
+
+    #sideNavAbout{
+      text-align: center;
+      right: 4vw;
+      z-index: 3;
+    }
+
+    #aboutSection{
+        margin: 30px;
+        padding-top: 20px;
+        z-index: 3;
+    }
+
+    #AnnaPic{
+      display:block;
+      margin:0 auto;
+      width: 100%;
+      height: auto;
+      z-index: 3;
+    }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 20%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+  #sideNavAbout{
+    text-align: center;
+  }
+
+  #aboutTitle{
+    text-align: center;
+    top: 5vh;
+    font-size: 150px;
+  }
+
+  #sideNavAbout{
+    text-align: center;
+    right: 4vw;
+    z-index: 3;
+  }
+
+  #aboutSection{
+    margin: 30px;
+    padding-top: 20px;
+    z-index: 3;
+    font-size: 30px;
+  }
+
+  #AnnaPic{
+    display:block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    z-index: 3;
+  }
+
+  #workAbout{
+    font-size: 50px;
+  }
+
+  #playAbout{
+    font-size: 50px;
+  }
+
+  #contactAbout{
+    font-size: 50px;
+  }
+
+  #logo{
+    z-index: 3;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 15%;
+  }
+
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1440px) { 
+
+    #particles-js{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+  
+    #sideNavAbout{
+      text-align: center;
+    }
+  
+    #aboutTitle{
+      text-align: center;
+      top: 5vh;
+      font-size: 150px;
+    }
+  
+    #sideNavAbout{
+      text-align: center;
+      right: 0vw;
+      z-index: 3;
+    }
+  
+    #aboutSection{
+      margin: 30px;
+      padding-top: 20px;
+      z-index: 3;
+      font-size: 30px;
+    }
+  
+    #AnnaPic{
+      display:block;
+      margin: 0 auto;
+      width: 30%;
+      height: auto;
+      z-index: 3;
+    }
+  
+    #workAbout{
+      font-size: 50px;
+    }
+  
+    #playAbout{
+      font-size: 50px;
+    }
+  
+    #contactAbout{
+      font-size: 50px;
+    }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 8%;
+    }
+  }
+  
+  @media (min-width: 1441px) and (max-width: 1600px) { 
+
+    html, body {
+      overflow-x: hidden;
+      overflow-y: visible;
+    }
+
+    body {
+      position: relative;
+    }
+
+    #aboutTitle{
+      position: relative;
+      top: 5vh;
+      left: 20vw;
+      font-size: 150px;
+    }
+
+    #AnnaPic{
+      display:block;
+      position: relative;
+      top: -5vh;
+      left: -1vw;
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+    }
+
+    #sideNavAbout{
+      position: relative;
+      top: -85vh;
+      left: 2vw;
+      z-index: 3;
+    }
+
+    #aboutSection{
+      margin: 20px;
+      width: 40%;
+      position: relative;
+      top: -45vh;
+      left: 55vw;
+    }
+      
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 8%;
+    } 
+  
+  }
+  
+  @media (min-width: 1601px) and (max-width: 5120px) { 
+
+    html, body {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    body {
+      position: relative;
+    }
+
+    #aboutTitle{
+      position: relative;
+      top: 5vh;
+      left: 20vw;
+      font-size: 150px;
+    }
+
+    #AnnaPic{
+      display:block;
+      position: relative;
+      top: -5vh;
+      left: -1vw;
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+    }
+
+    #sideNavAbout{
+      position: relative;
+      top: -50vh;
+      left: 2vw;
+      z-index: 3;
+    }
+
+    #aboutSection{
+      margin: 20px;
+      width: 40%;
+      position: relative;
+      top: -30vh;
+      left: 50vw;
+    }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 5%;
+    } 
+  
+  }

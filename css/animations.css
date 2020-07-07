@@ -1,0 +1,60 @@
+@keyframes mainFadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes mainFadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes mainFadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes mainFadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes mainFadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .main-fade-in {
+    animation: mainFadeIn ease 5s;
+    -webkit-animation: mainFadeIn ease 5s;
+    -moz-animation: mainFadeIn ease 5s;
+    -o-animation: mainFadeIn ease 5s;
+    -ms-animation: mainFadeIn ease 5s;
+  }
+
+  .second-fade-in {
+    animation: mainFadeIn ease 2s;
+    -webkit-animation: mainFadeIn ease 2s;
+    -moz-animation: mainFadeIn ease 2s;
+    -o-animation: mainFadeIn ease 2s;
+    -ms-animation: mainFadeIn ease 2s;
+  }

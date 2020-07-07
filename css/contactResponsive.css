@@ -1,0 +1,381 @@
+.contactTitle{
+    color: #022672;
+    z-index: 3;
+}
+
+#workContact:hover{
+    color: #0683D7;
+}
+
+#contactContact:hover{
+    color: #0683D7;
+}
+
+#playContact:hover{
+    color: #0683D7;
+}
+
+
+@media (min-width: 150px) and (max-width: 767px) {   
+
+    body{
+      overflow-y: visible;
+      overflow-x: hidden;
+    }
+
+    #particles-js{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    canvas {
+      display: block;
+      z-index: 0 !important;
+      position: fixed;
+      overflow-x: hidden;
+    }
+    
+      #contactTitle{
+        text-align: center;
+        top: 5vh;
+        font-size: 80px;
+      }
+
+      #contactSection{
+          margin: 30px;
+          padding-top: 20px;
+          z-index: 3;
+      }
+
+      #sideNavContact{
+        position: relative;
+        right: 5vw;
+        text-align: center;
+      }
+
+      form {
+        max-width: 100%;
+        margin: 50px auto;
+        position: relative;
+        z-index: 3 !important;
+     }
+
+     #contactSubtitle{
+      color: #022672;
+      position: relative;
+      left: 30vw;
+      bottom: 1vh;
+      font-family: AvenirMedium;
+      width: 60%;
+      height: auto;
+     }
+
+     #messageMe{
+      color: #022672;
+      font-family: fancyFont;
+      text-align: center;
+     }
+
+     #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 3vw;
+      width: 20%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body{
+      overflow-y: visible;
+      overflow-x: hidden;
+    }
+
+    #particles-js{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    canvas {
+      display: block;
+      z-index: 0 !important;
+      position: fixed;
+      overflow-x: hidden;
+    }
+    
+      #contactTitle{
+        text-align: center;
+        top: 5vh;
+        font-size: 150px;
+      }
+
+      #contactSection{
+          margin: 30px;
+          padding-top: 20px;
+          z-index: 3;
+      }
+
+      #sideNavContact{
+        position: relative;
+        right: 2vw;
+        text-align: center;
+      }
+
+      form {
+        max-width: 60%;
+        margin: 50px auto;
+        position: relative;
+        z-index: 3 !important;
+     }
+
+     #contactSubtitle{
+      color: #022672;
+      position: relative;
+      left: 50vw;
+      bottom: 0vh;
+      font-family: AvenirMedium;
+      font-size: 120%;
+      width: 40%;
+      height: auto;
+     }
+
+     #messageMe{
+      color: #022672;
+      font-family: fancyFont;
+      text-align: center;
+      font-size: 300%;
+     }
+
+     #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 3vw;
+      width: 15%;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1440px) { 
+    body{
+      overflow-y: visible;
+      overflow-x: hidden;
+    }
+
+    #particles-js{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    canvas {
+      display: block;
+      z-index: 0 !important;
+      position: fixed;
+      overflow-x: hidden;
+    }
+    
+      #contactTitle{
+        text-align: center;
+        top: 5vh;
+        font-size: 150px;
+      }
+
+      #contactSection{
+          margin: 30px;
+          padding-top: 20px;
+          z-index: 3;
+      }
+
+      #sideNavContact{
+        position: relative;
+        right: 2vw;
+        text-align: center;
+      }
+
+      form {
+        max-width: 50%;
+        margin: 50px auto;
+        position: relative;
+        z-index: 3 !important;
+     }
+
+     #contactSubtitle{
+      color: #022672;
+      position: relative;
+      left: 50vw;
+      bottom: 0vh;
+      font-family: AvenirMedium;
+      font-size: 120%;
+      width: 40%;
+      height: auto;
+     }
+
+     #messageMe{
+      color: #022672;
+      font-family: fancyFont;
+      text-align: center;
+      font-size: 300%;
+     }
+
+     #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 3vw;
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 1441px) and (max-width: 1600px) { 
+    html, body {
+      overflow-x: hidden;
+      overflow-y: visible;
+    }
+
+    body {
+      position: relative;
+    }
+
+    #contactTitle{
+      position: relative;
+      top: 5vh;
+      left: 22vw;
+      font-size: 150px;
+    }
+    
+    #contactSubtitle{
+      color: #022672;
+      position: relative;
+      left: 36vw;
+      bottom: 2vh;
+      font-family: AvenirMedium;
+      font-size: 120%;
+      width: 40%;
+      height: auto;
+     }
+
+
+    #sideNavContact{
+      position: relative;
+      top: -50vh;
+      left: 3vw;
+      z-index: 3;
+    }
+
+    #aboutSection{
+      margin: 20px;
+      width: 40%;
+      position: relative;
+      top: -45vh;
+      left: 55vw;
+    }
+
+    #messageMe{
+      color: #022672;
+      font-family: fancyFont;
+      text-align: center;
+      font-size: 300%;
+      position: relative;
+      left: 25vw;
+      top: -30vh;
+     }
+
+     form {
+      max-width: 30%;
+      margin: 50px auto;
+      position: relative;
+      left: 25vw;
+      top: -30vh;
+      z-index: 3 !important;
+   }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 8%;
+    }
+
+  }
+
+  @media (min-width: 1601px) and (max-width: 5120px) { 
+    html, body {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    body {
+      position: relative;
+    }
+
+    #contactTitle{
+      position: relative;
+      top: 5vh;
+      left: 22vw;
+      font-size: 150px;
+    }
+    
+    #contactSubtitle{
+      color: #022672;
+      position: relative;
+      left: 36vw;
+      bottom: 2vh;
+      font-family: AvenirMedium;
+      font-size: 120%;
+      width: 40%;
+      height: auto;
+     }
+
+
+    #sideNavContact{
+      position: relative;
+      top: -40vh;
+      left: 3vw;
+      z-index: 3;
+    }
+
+    #aboutSection{
+      margin: 20px;
+      width: 40%;
+      position: relative;
+      top: -45vh;
+      left: 55vw;
+    }
+
+    #messageMe{
+      color: #022672;
+      font-family: fancyFont;
+      text-align: center;
+      font-size: 300%;
+      position: relative;
+      left: 25vw;
+      top: -20vh;
+     }
+
+     form {
+      max-width: 30%;
+      margin: 50px auto;
+      position: relative;
+      left: 25vw;
+      top: -20vh;
+      z-index: 3 !important;
+   }
+
+    #logo{
+      z-index: 3;
+      position: relative;
+      top: 2vh;
+      left: 1vw;
+      width: 5%;
+    }
+  
+  }
